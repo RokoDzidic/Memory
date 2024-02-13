@@ -29,7 +29,7 @@ namespace Memroy
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            Frame.Navigate(typeof(Igra));
         }
 
         private void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
@@ -39,7 +39,7 @@ namespace Memroy
 
         private void MenuFlyoutItem_Click_1(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(Igra));
         }
     }
 }

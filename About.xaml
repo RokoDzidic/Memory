@@ -12,13 +12,8 @@
         <MenuBar HorizontalAlignment="Left" Margin="0,0,0, 960">
             <MenuBarItem Title="File">
                 <MenuFlyoutItem Text="Back" Click="MenuFlyoutItem_Click"/>
-                <MenuFlyoutItem Text="Igra" Click="MenuFlyoutItem_Click"/>
             </MenuBarItem>
 
-
-            <MenuBarItem Title="Help">
-                <MenuFlyoutItem Text="About" Click="MenuFlyoutItem_Click_1"/>
-            </MenuBarItem>
         </MenuBar>
 
         <TextBox HorizontalAlignment="Center" Height="107" TextWrapping="Wrap" Text="Hej Estoy Roko, Ja sam glavni developer ove ultra kul ful super duper igrice. Zaprati me na IG" Width="687" TextChanged="TextBox_TextChanged" TextAlignment="Center" Background="#66FF7C7C" FontFamily="Arial Black" FontSize="24"/>

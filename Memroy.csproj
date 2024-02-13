@@ -122,6 +122,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Igra.xaml.cs">
+      <DependentUpon>Igra.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -133,6 +136,16 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\CRVENA.jpg" />
+    <Content Include="Assets\LJUBICASTA.jpg" />
+    <Content Include="Assets\NARANCASTA.JPG" />
+    <Content Include="Assets\PLAVA.jpg" />
+    <Content Include="Assets\roza.jpg" />
+    <Content Include="Assets\Sivo.jpg" />
+    <Content Include="Assets\SVJETLOZELENA.JPG" />
+    <Content Include="Assets\ZELENA.jpg" />
+    <Content Include="Assets\zelenozuta.jpg" />
+    <Content Include="Assets\ZUTA.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -148,6 +161,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Igra.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

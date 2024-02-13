@@ -20,7 +20,7 @@
                 <MenuFlyoutItem Text="About" Click="MenuFlyoutItem_Click_1"/>
             </MenuBarItem>
         </MenuBar>
-        <TextBlock HorizontalAlignment="Center" Height="87" Margin="380,86,0,0" TextWrapping="Wrap" Text="Main Page" VerticalAlignment="Top" Width="720" SelectionChanged="TextBlock_SelectionChanged" FontFamily="Arial Black" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Height="87" Margin="693,83,0,0" TextWrapping="Wrap" Text="Main Page" VerticalAlignment="Top" Width="720" SelectionChanged="TextBlock_SelectionChanged" FontFamily="Arial Black" FontSize="20"/>
 
     </Grid>
 </Page>
